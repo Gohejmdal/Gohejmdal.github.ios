@@ -1,7 +1,9 @@
 html {
 
-background: linear-gradient(to bottom, #fdcccb ,#ffffff);
-    height: auto !important;
+background-image: url(https://cdn.discordapp.com/attachments/1057191261083279382/1106292042142863390/4_1-2.png);
+    background-size: cover!important;
+    background-attachment: fixed;
+    background-size: contain;
 
 
 }
@@ -51,7 +53,7 @@ header .row>div:nth-child(1)>a {
 	width: var(--logoWidth);
 	height: 60px;
 	background: var(--logoURL) no-repeat;
-	background-size: auto 50px;
+	background-size: auto 80px;
 }
 
 /* 기본 트게더 로고 제거 ( 없으면 주석처리 하세요 ) */
