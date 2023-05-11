@@ -23,7 +23,7 @@ letter-spacing: -0.05em !important;
 	--mainColor5: #FFD1D1; /* 공지, 인기글 hover */
 	--mainColor3: #FFD1D1; /* 공지, 인기글 */
 	--mainColor2: #FFD1D1; /* 트게더 메뉴, 게시글 hover */
-	--logoURL: url(https://cdn.discordapp.com/attachments/1057191261083279382/1088516048757719202/c7819a04513535b6.png);
+	--logoURL: url(https://cdn.discordapp.com/attachments/1057191261083279382/1106281326111359166/82222fd87e34f4d0.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "고수 "; /* 접속자 수 앞 문구 */
 	--after: "명이 고나를 기다리는 중";  /* 접속자 수 뒤 문구 */
@@ -98,7 +98,9 @@ header #header-bar>.row {
 border-top: 4px solid #FF9494;
 border-right: none;
 border-bottom: none;
-background: var(--mainColor);
+background: #FFF5E4;
+border: 3px solid #FF9494 !important;
+border-radius: 20px;
 }
 
 
