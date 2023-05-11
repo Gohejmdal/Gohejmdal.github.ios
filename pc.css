@@ -86,6 +86,11 @@ header #right-search-form>#right-search-btn:focus {
 	transition: 0.2s;
 }
 
+.fa-home:before {
+    content: "\f015";
+    color: var(--mainColor);
+}
+
 /* 상단바 */
 header #header-bar {
 	margin-bottom: 0.5em;
