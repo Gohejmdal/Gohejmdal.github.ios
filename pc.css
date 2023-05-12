@@ -441,7 +441,7 @@ img#board-info-profile-img:hover {
 }
 
 #article-neighbor-list {
-    border: 2px solid var(--mainColor);
+    border: 3px solid var(--mainColor);
     background: #FFF5E4;
     border-radius: 15px;
 }
