@@ -65,6 +65,7 @@ header .row>div:nth-child(1) > a > img {
 header #right-search-form>input[type='text'] {
 	border: 2px solid var(--mainColor);
 	transition: 0.2s;
+	border-radius: 10px;
 }
 
 header #right-search-form>input[type='text']:hover,
