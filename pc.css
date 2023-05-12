@@ -390,7 +390,7 @@ img#board-info-profile-img:hover {
 /* 게시글 본문 */
 #article-info {
 	background: #FFF5E4;
-	border: 2px solid var(--mainColor);
+	border: 3px solid var(--mainColor);
 	border-bottom: 1px;
 	margin-top: 0.5em;
 	border-top-left-radius: 15px;
