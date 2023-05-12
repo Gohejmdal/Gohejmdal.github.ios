@@ -479,7 +479,7 @@ img#board-info-profile-img:hover {
 #article-reply-area #reply-real-area .reply > .reply-header,
 #article-reply-area #reply-best-area .reply > .reply-header {
 	padding: 0.3em 0.5em;
-	background: #fcfcfc;
+	background: #ffe8e4;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
