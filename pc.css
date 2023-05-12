@@ -243,7 +243,7 @@ img#board-info-profile-img:hover {
 }
 
 #board-info #board-info-profile-img {
- border: 2px solid #FF9494;
+ border: 3px solid #FF9494;
  border-radius: 60%;
  width: 75px;
  height: 75px;
