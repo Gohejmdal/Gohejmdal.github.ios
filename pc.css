@@ -140,8 +140,9 @@ border-radius: 15px;
 /* 트게더 메뉴 */
 #main .menu-wrapper {
 	background: white;
-	border: 2px solid var(--mainColor);
+	border: 3px solid var(--mainColor);
 	width: 180px;
+	border-radius: 10px;
 }
 
 #main .menu-wrapper > a {
@@ -175,6 +176,7 @@ background: #FFF5E4;
 #main #main-content>div.frame {
 	background: transparent;
 	border: none;
+	border-radius: 10px;
 }
 
 
@@ -263,7 +265,8 @@ img#board-info-profile-img:hover {
 .frame>.frame,
 #article-list {
 	background: #FFF5E4;
-	border: 2px solid var(--mainColor);
+	border: 3px solid var(--mainColor);
+	border-radius: 10px;
 }
 
 /* 공지 숨기기 버튼 */
