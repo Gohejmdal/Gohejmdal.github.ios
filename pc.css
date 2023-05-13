@@ -540,21 +540,9 @@ border-bottom-left-radius: 8px;
 
 .fr-popup,
 .fr-toolbar.fr-top {
-    border-top: 3px solid var(--bgColor) !important;
+    border-top: 3px solid var(--mainColor) !important;
 background: #ffe8e4;
 box-shadow: 0 0 0;
-border-top-right-radius: 35px;
-border-top-left-radius: 35px;
-}
-
-.fr-toolbar .fr-command.fr-btn,
-.fr-popup .fr-command.fr-btn {
-    color: var(--mainColor) !important;
-}
-
-.fr-toolbar .fr-command.fr-btn.fr-dropdown::after,
-.fr-popup .fr-command.fr-btn.fr-dropdown::after {
-    border-top: 4px solid var(--mainColor) !important;
 }
 
 /* 트게더 페이지 */
