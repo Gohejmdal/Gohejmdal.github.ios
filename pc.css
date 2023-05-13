@@ -146,6 +146,12 @@ border-radius: 15px;
 	border-radius: 10px;
 }
 
+#main .menu-wrapper a:nth-last-child(1) {
+
+    border-radius: 0px 0px 10px 10px;
+
+}
+
 #main .menu-wrapper > a {
 	padding: 0.35em 0.5em 0.35em 0.5em;
 	letter-spacing: -0.05em;
@@ -597,22 +603,6 @@ img#board-info-profile-img:hover {
 .btn.square {
 	margin-right: -2px;
 }
-
-/* 글쓸때 뱃지 테두리 흰색 없애기 
-a.custom-badge-link{
-border : none;
-}
-*/
-
-/* 글쓰기 뱃지 색상 */
-a.custom-badge-link{
-	border: 2px dashed #fff;
-}
-
-a.custom-badge-link.active{
-	border-color: #986fb1;
-}
-
 
 /* 마우스 커서 기본 */
 html,
