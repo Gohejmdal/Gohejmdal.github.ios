@@ -189,6 +189,12 @@ background: #FFF5E4;
 #board-info h1>a {
 	transition: 0.2s;
 }
+#board-info h1>a:not(.badge-live) {
+padding-left: 0px;
+font-weight: 400; /* 스트리머명 폰트 두께 */
+font-size: 34px !important; /* 스트리머명 폰트 크기 */
+
+}
 
 #board-info h1>a:hover,
 #board-info h1>a:focus {
@@ -285,42 +291,65 @@ img#board-info-profile-img:hover {
 
 /* 카테고리 */
 #article-list #article-list-category {
-	background: transparent;
-	border: none;
-	margin-top: 2px;
-	margin-bottom: 2px;
+    background: transparent;
+    border: none !important;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 #article-list #article-list-category>a {
-	background: transparent;
-  color: var(--mainColor);
-	position: relative;
+    background: transparent;
+  color: var(--mainColor) !important;
+    position: relative;
+}
+
+#article-list #article-list-category > a.active {
+    background: var(--bgColor);
+border
+}
+
+#article-list #article-list-category.can-float {
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+}
+
+#article-list #article-list-category.can-float>a.active{
+ background: rgba(255, 255, 255, 0);
+}
+
+#article-list #article-list-category.can-float>a.active:hover,
+#article-list #article-list-category.can-float>a:hover {
+    background: var(--bgColor);
+}
+
+#article-list #article-list-category.can-float>a {
+    background: rgba(255, 255, 255, 0);
 }
 
 #article-list #article-list-category>a::before {
-	top: 0;
+    top: 0;
 }
 
 #article-list #article-list-category>a::after {
-	bottom: 0;
+    bottom: 0;
 }
 
 #article-list #article-list-category>a::before,
 #article-list #article-list-category>a::after {
-	height: 2px;
-	width: 100%;
-	background: var(--mainColor);
-	content: "";
-	position: absolute;
-	left: 0px;
-	transform: scaleX(0);
-	transition: 0.3s;
+    height: 2px;
+    width: 100%;
+    background: var(--mainColor) !important;
+    content: "";
+    position: absolute;
+    left: 0px;
+    transform: scaleX(0);
+    transition: 0.3s;
 }
 
 #article-list #article-list-category>a:hover::before,
 #article-list #article-list-category>a:hover::after {
-	transform: scaleX(1);
+    transform: scaleX(1);
 }
+
 
 /* 게시글 */
 #article-list>.article-list-row {
