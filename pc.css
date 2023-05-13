@@ -468,44 +468,93 @@ img#board-info-profile-img:hover {
 	padding: 0;
 	background: #FFF5E4;
 	border: 3px solid var(--mainColor);
-	border-radius: 15px;
+            border-radius: 15px;
     margin-top: 0.5em;
 	margin-bottom: 1em;
 }
 
+#article-reply-area > .header{
+margin-top: 30px;
+}
+
 #article-reply-area > .header h5 {
-	color: var(--mainColor);
+    color: var(--mainColor) !important;
+}
+
+#article-reply-area #reply-real-area{
+padding-right: 30px;
+padding-left: 30px;
+}
+
+#article-reply-area #reply-real-area, #article-reply-area #reply-best-area {
+    /*background: var(--mainColor2) !important;
+border: 2px solid var(--mainColor) !important;
+border-top: 0px solid var(--mainColor) !important;*/
+}
+
+ /*분기*/
+#article-reply-area #reply-real-area .reply, 
+#article-reply-area #reply-best-area .reply {
+    margin-bottom: 0.9em;
+    border: 0px solid #f1f1f1;
+    position: relative;
 }
 
 #article-reply-area #reply-real-area .reply.active,
 #article-reply-area #reply-best-area .reply.active {
-	background-color: var(--mainColor2);
+    background-color: var(--mainColor2) !important;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header,
 #article-reply-area #reply-best-area .reply > .reply-header {
-	padding: 0.3em 0.5em;
-	background: #ffe8e4;
+    padding: 0.3em 0.5em;
+    background: #fff;
+margin-top: 0.5em;
+border: 2px solid var(--mainColor);
+border-radius: 15px;
+/*border-top-right-radius: 15px;
+border-top-left-radius: 15px;*/
+}
+
+#article-reply-area #reply-real-area .reply>.reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
+    padding: 0.7em;
+background: #ffe8e4;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+margin: 0 10px; 5px; 10px;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
-#article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
-	color: var(--mainColor);
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > *,
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-menu > *{
+    color: var(--mainColor) !important;
+}
+
+.fr-box.fr-basic.fr-top .fr-wrapper {
+border: 2px solid var(--mainColor);
+-webkit-box-shadow: 0 0 0;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
 }
 
 .fr-popup,
 .fr-toolbar.fr-top {
-	border-top: 3px solid var(--mainColor);
+    border-top: 3px solid var(--bgColor) !important;
+background: #ffe8e4;
+box-shadow: 0 0 0;
+border-top-right-radius: 35px;
+border-top-left-radius: 35px;
 }
 
 .fr-toolbar .fr-command.fr-btn,
 .fr-popup .fr-command.fr-btn {
-	color: var(--mainColor);
+    color: var(--mainColor) !important;
 }
 
 .fr-toolbar .fr-command.fr-btn.fr-dropdown::after,
 .fr-popup .fr-command.fr-btn.fr-dropdown::after {
-	border-top: 4px solid var(--mainColor);
+    border-top: 4px solid var(--mainColor) !important;
 }
 
 /* 트게더 페이지 */
